@@ -1,19 +1,19 @@
 # git_basic_command
 > a document about git basic command
 
-*help command
+* help command
 ```
 git help
 ```
-*check status
+* check status
 ```
 git status
 ```
-*check modification
+* check modification
 ```
 git diff
 ```
-*print current version information
+* print current version information
 ```
 git log
 ```
