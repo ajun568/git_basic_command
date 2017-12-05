@@ -17,4 +17,7 @@ git diff
 ```
 git log
 ```
-
+* establish branch
+```
+git branch new_name
+```
