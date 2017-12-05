@@ -49,4 +49,4 @@ git pull origin branch_name
 ```
 git merge branch_name
 ```
-Jump to Chinese documents
+[Jump to Chinese documents](https://github.com/ajun568/git_basic_command/wiki)
