@@ -66,11 +66,11 @@ git push origin --delete branch_name
 git reset --hard HEAD^
 git reset --hard HEAD~N
 ```
-* 版本回退 回退到指定ID版本
+* version roolback Back to the specified ID version
 ```
 git reset --hard commit_id
 ```
-* 查看版本ID <用于错误回滚流程后的复原`git reset --hard commit_id`>
+* view version ID <recovery after error rollback process`git reset --hard commit_id`>
 ```
 git reflog
 ```
