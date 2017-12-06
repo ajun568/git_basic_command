@@ -49,4 +49,22 @@ git pull origin branch_name
 ```
 git merge branch_name
 ```
+> whole process
+```
+mkdir folders
+git clone origin_address
+cd folders
+npm install
+npm run dev <the configuration file works>
+<open a new window>
+git checkout -b develop
+(git pull origin develop)
+git checkout -b feature/xxx/xxx
+git add .
+git commit -m"xxx"
+git push origin feature/xxx/xxx
+git checkout develop
+git pull origin develop
+git merge feature/xxx/xxx <resolve the conflict>
+```
 ### [Jump to Chinese documents](https://github.com/ajun568/git_basic_command/wiki)
