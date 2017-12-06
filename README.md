@@ -49,6 +49,31 @@ git pull origin branch_name
 ```
 git merge branch_name
 ```
+* rename local branch **rename origin branch：rename local branch->delete origin branch->push to origin**
+```
+git branch -m old_name new_name
+```
+* delete local branch
+```
+git branch -D branch_name
+```
+* delete origin branch
+```
+git push origin --delete branch_name
+```
+* version roolback pre/previous N version
+```
+git reset --hard HEAD^
+git reset --hard HEAD~N
+```
+* 版本回退 回退到指定ID版本
+```
+git reset --hard commit_id
+```
+* 查看版本ID <用于错误回滚流程后的复原`git reset --hard commit_id`>
+```
+git reflog
+```
 > whole process
 ```
 mkdir folders
